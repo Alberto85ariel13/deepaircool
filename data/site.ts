@@ -1,3 +1,5 @@
+import { locations } from './locations';
+
 export type Locale = 'es' | 'en';
 
 export const company = {
@@ -8,7 +10,7 @@ export const company = {
   emailHref: 'mailto:contact@deepaircool.com',
   url: 'https://deepaircool.com',
   googleMapsUrl: 'https://maps.app.goo.gl/oFMaDLb18t4ZUCBj7',
-  areas: ['Miami', 'Hialeah', 'Doral', 'Kendall', 'Coral Gables', 'Aventura', 'Miami Lakes', 'Homestead', 'Sweetwater', 'Miami Gardens', 'Opa-locka', 'Medley'],
+  areas: locations.map(location => location.name),
 };
 
 export type Service = {

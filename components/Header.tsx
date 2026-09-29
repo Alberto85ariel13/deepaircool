@@ -4,13 +4,15 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { company, copy, homePath, servicePath, type Locale } from '@/data/site';
+import { locationPath } from '@/data/locations';
 
-export function Header({ locale, serviceSlug }: { locale: Locale; serviceSlug?: string }) {
+export function Header({ locale, serviceSlug, locationSlug }: { locale: Locale; serviceSlug?: string; locationSlug?: string }) {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
   const t = copy[locale];
   const home = homePath(locale);
-  const switchHref = serviceSlug ? servicePath(locale === 'es' ? 'en' : 'es', serviceSlug) : locale === 'es' ? '/en' : '/';
+  const otherLocale = locale === 'es' ? 'en' : 'es';
+  const switchHref = locationSlug ? locationPath(otherLocale, locationSlug) : serviceSlug ? servicePath(otherLocale, serviceSlug) : locale === 'es' ? '/en' : '/';
   const links = ['#inicio', '#servicios', '#nosotros', '#proyectos', '#resenas', '#contacto'];
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 28);
