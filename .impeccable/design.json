@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-29T14:00:00Z",
+  "title": "Design System: Deep Air Cool Solutions",
+  "extensions": {
+    "colorMeta": {
+      "navy": { "role": "neutral", "displayName": "Deep Navy", "canonical": "#071d31" },
+      "cyan": { "role": "primary", "displayName": "Service Cyan", "canonical": "#47c4e5" },
+      "paper": { "role": "neutral", "displayName": "Deep Blue Surface", "canonical": "#0b2639" }
+    },
+    "typographyMeta": { "display": { "displayName": "Display", "purpose": "Hero and section headlines." } },
+    "shadows": [{ "name": "navigation", "value": "0 10px 32px rgba(0,0,0,.12)", "purpose": "Separate the scrolled header from the page." }],
+    "motion": [{ "name": "reveal", "value": "650ms cubic-bezier(.2,.8,.2,1)", "purpose": "Small entrance movement while content remains visible." }],
+    "breakpoints": [{ "name": "mobile", "value": "640px" }, { "name": "tablet", "value": "900px" }]
+  },
+  "components": [
+    {
+      "name": "Primary call button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The main call action across the site.",
+      "html": "<a class=\"ds-call\" href=\"tel:+13054812522\">LLAMAR AHORA →</a>",
+      "css": ".ds-call{display:inline-flex;align-items:center;justify-content:space-between;gap:28px;min-height:56px;padding:18px 24px;background:#47c4e5;color:#041320;text-decoration:none;border-radius:3px;font:800 13px Manrope,sans-serif;letter-spacing:.025em}.ds-call:hover{background:#8be3f2}.ds-call:focus-visible{outline:3px solid #087ac5;outline-offset:4px}"
+    },
+    {
+      "name": "Service row",
+      "kind": "custom",
+      "description": "Editorial service navigation without card chrome.",
+      "html": "<a class=\"ds-service\" href=\"#\">01 &nbsp; Instalación de aire acondicionado <span>→</span></a>",
+      "css": ".ds-service{display:flex;justify-content:space-between;gap:20px;padding:24px 0;border-top:1px solid #d5e2e7;color:#102e41;text-decoration:none;font:750 17px Manrope,sans-serif}.ds-service:hover,.ds-service:focus-visible{color:#087ac5}.ds-service:focus-visible{outline:3px solid #47c4e5;outline-offset:4px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Field work in focus",
+    "overview": "The site uses the company's real van and field photography as its principal visual proof. Spacious editorial typography and layered deep blue surfaces give the images room, while the cyan call action stays immediately recognizable. Spanish and English share the same composition.",
+    "keyCharacteristics": ["Real project imagery", "Large direct headlines", "Layered dark blue section rhythm", "Visible phone calls"],
+    "rules": [],
+    "dos": ["Do lead with the supplied van and authentic technical photographs.", "Do keep a direct call action visible on every page.", "Do preserve bilingual page parity and local content facts."],
+    "donts": ["Don't add invented statistics, testimonials, or geographic landing pages."]
+  }
+}
