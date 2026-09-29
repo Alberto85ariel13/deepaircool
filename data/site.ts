@@ -103,7 +103,7 @@ export const copy = {
     hours: 'Lun–Vie: 7am–8pm · Sáb–Dom: 8am–6pm', emergencyHours: 'Emergencias: 24/7',
     serviceArea: 'Áreas de servicio', contact: 'Contacto', services: 'Servicios', viewAll: 'Ver todos los servicios',
     serviceCta: 'Hablemos de tu equipo.', serviceCtaText: 'Cuéntanos qué está pasando. La forma más rápida de comenzar es llamarnos.',
-    back: 'Volver al inicio', workLabels: ['Equipo de servicio', 'Unidad HVAC', 'Diagnóstico de equipo', 'Serpentín de aire', 'Unidad exterior'],
+    back: 'Volver al inicio', workLabels: ['Equipo de servicio', 'Unidad HVAC', 'Diagnóstico de equipo', 'Serpentín de aire', 'Unidad exterior', 'Equipo comercial en azotea'],
   },
   en: {
     nav: ['Home', 'Services', 'About', 'Work', 'Reviews', 'Contact'],
@@ -126,7 +126,7 @@ export const copy = {
     hours: 'Mon–Fri: 7am–8pm · Sat–Sun: 8am–6pm', emergencyHours: 'Emergencies: 24/7',
     serviceArea: 'Service areas', contact: 'Contact', services: 'Services', viewAll: 'Explore services',
     serviceCta: 'Let’s talk about your system.', serviceCtaText: 'Tell us what is happening. Calling is the fastest way to get started.',
-    back: 'Back to home', workLabels: ['Service equipment', 'HVAC unit', 'Equipment diagnosis', 'Air conditioning coil', 'Outdoor unit'],
+    back: 'Back to home', workLabels: ['Service equipment', 'HVAC unit', 'Equipment diagnosis', 'Air conditioning coil', 'Outdoor unit', 'Rooftop commercial unit'],
   },
 } as const;
 
