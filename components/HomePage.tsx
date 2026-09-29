@@ -32,7 +32,7 @@ export function HomePage({ locale }: { locale: Locale }) {
     { image: '/images/air-handler.webp', alt: locale === 'es' ? 'Equipo HVAC abierto para revisión' : 'HVAC equipment opened for inspection', label: t.workLabels[2] },
     { image: '/images/coil.webp', alt: locale === 'es' ? 'Detalle de un serpentín de aire acondicionado' : 'Detail of an air conditioning coil', label: t.workLabels[3] },
     { image: '/images/condenser.webp', alt: locale === 'es' ? 'Unidad exterior de aire acondicionado' : 'Outdoor air conditioning unit', label: t.workLabels[4] },
-    { image: '/images/rooftop-hvac-fieldwork.webp', alt: locale === 'es' ? 'Equipo comercial de climatización abierto para revisión en una azotea' : 'Commercial HVAC unit opened for inspection on a rooftop', label: t.workLabels[5] },
+    { image: '/images/rooftop-hvac-fieldwork.webp', alt: locale === 'es' ? 'Rack de compresores para refrigeración comercial en una azotea' : 'Compressor rack for commercial refrigeration on a rooftop', label: t.workLabels[5] },
   ];
   return <><JsonLd locale={locale} /><Header locale={locale} /><main>
     <Hero locale={locale} />
