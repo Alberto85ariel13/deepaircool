@@ -8,7 +8,7 @@ export const company = {
   phoneHref: 'tel:+13054812522',
   email: 'contact@deepaircool.com',
   emailHref: 'mailto:contact@deepaircool.com',
-  url: 'https://deepaircool.com',
+  url: 'https://www.deepaircoolsolution.com',
   googleMapsUrl: 'https://maps.app.goo.gl/oFMaDLb18t4ZUCBj7',
   areas: locations.map(location => location.name),
 };

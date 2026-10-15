@@ -24,7 +24,7 @@ Spanish is the default language and English is fully available. Calling is the p
 Keep the Deep Air Cool Solutions name, supplied logo, recognizable blue/cyan identity, and real supplied field photographs. The supplied van photograph must lead the hero.
 
 ## Evidence on Hand
-Existing website at https://deepaircool.com/ lists services, phone, email, service areas, hours, and emergency service. The repo contains a logo, eleven photographs, and a video. The exact names and stories of photographed projects are not supplied.
+The canonical website domain is https://www.deepaircoolsolution.com/. Earlier site material lists services, phone, email, service areas, hours, and emergency service. The repo contains a logo, eleven photographs, and a video. The exact names and stories of photographed projects are not supplied.
 
 ## Product Principles
 - Make the call action obvious and usable on mobile.
