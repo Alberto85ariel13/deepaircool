@@ -21,6 +21,13 @@ export function socialMetadata(locale: Locale, title: string, description: strin
 
 export const baseMetadata: Metadata = {
   metadataBase: new URL(company.url),
+  icons: {
+    icon: [
+      { url: '/favicon.ico', sizes: '16x16 32x32 48x48 64x64', type: 'image/x-icon' },
+      { url: '/favicon-192.png', sizes: '192x192', type: 'image/png' },
+    ],
+    apple: [{ url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' }],
+  },
   title: { default: 'Deep Air Cool Solutions | HVAC y Refrigeración en Miami', template: '%s | Deep Air Cool Solutions' },
   description: 'Instalación, mantenimiento y reparación de aire acondicionado, HVAC y refrigeración en Miami. Servicio de emergencia 24/7. Llama al (305) 481-2522.',
 };

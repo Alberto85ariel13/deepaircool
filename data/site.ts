@@ -6,6 +6,7 @@ export const company = {
   name: 'Deep Air Cool Solutions',
   phone: '(305) 481-2522',
   phoneHref: 'tel:+13054812522',
+  whatsappNumber: '13054812522',
   email: 'contact@deepaircool.com',
   emailHref: 'mailto:contact@deepaircool.com',
   url: 'https://www.deepaircoolsolution.com',

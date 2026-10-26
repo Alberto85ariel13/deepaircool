@@ -18,10 +18,10 @@ Explain Deep Air Cool Solutions' services and turn local visits into immediate p
 Residential, commercial, and industrial cooling systems in Miami and surrounding cities. The existing site lists 24/7 emergency availability.
 
 ## Capabilities and Constraints
-Spanish is the default language and English is fully available. Calling is the primary action. Preserve the verified phone number (305) 481-2522 and contact@deepaircool.com. Do not fabricate commercial claims, testimonials, addresses, or project details.
+Spanish is the default language and English is fully available. Calling is the primary action. Preserve the verified phone number (305) 481-2522 and contact@deepaircool.com. The homepage also offers a collapsible service request panel that opens upward over the hero copy without expanding the section: name, phone, and service are required; location and message are optional. It opens a prepared request at wa.me/13054812522 for the visitor to review and send; it does not send automatically. Do not fabricate commercial claims, testimonials, addresses, or project details.
 
 ## Brand Commitments
-Keep the Deep Air Cool Solutions name, supplied logo, recognizable blue/cyan identity, and real supplied field photographs. The supplied van photograph must lead the hero.
+Keep the Deep Air Cool Solutions name, supplied logo, recognizable blue/cyan identity, and real supplied field photographs. The homepage hero uses the supplied commercial HVAC artwork; retain the van photograph in the existing asset library and business/social imagery.
 
 ## Evidence on Hand
 The canonical website domain is https://www.deepaircoolsolution.com/. Earlier site material lists services, phone, email, service areas, hours, and emergency service. The repo contains a logo, eleven photographs, and a video. The exact names and stories of photographed projects are not supplied.

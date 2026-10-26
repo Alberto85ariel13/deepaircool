@@ -41,7 +41,7 @@ components:
 
 **Creative North Star: "Field work in focus"**
 
-The site uses the company's real van and field photography as its principal visual proof. Spacious editorial typography and layered deep blue surfaces give the images room, while the cyan call action stays immediately recognizable. Spanish and English share the same composition.
+The site uses supplied brand artwork and real field photography, with authentic technical photographs providing visual proof of the company's work. Spacious editorial typography and layered deep blue surfaces give the images room, while the cyan call action stays immediately recognizable. Spanish and English share the same composition.
 
 **Key Characteristics:** Real project imagery; large direct headlines; layered dark blue section rhythm; visible phone calls.
 
@@ -57,6 +57,8 @@ Manrope carries display, navigation, and body copy. Display type uses restrained
 
 The content container is at most 1360px wide. Desktop sections use asymmetric editorial grids; under 900px they become single-column layouts. The mobile call action stays fixed at the bottom without covering content.
 
+The homepage hero is a local exception to that section breakpoint: above 1000px, left-aligned copy, the primary phone action, and the WhatsApp form trigger sit over the darker left side of `/public/images/commercial-hero.webp`, preserving the brand artwork on the right. At 1000px and below, the complete artwork appears above the left-aligned text and form. This composition applies to the homepage hero, not the global section layout.
+
 ## Elevation & Depth
 
 Depth comes mainly from photographs, overlays, and tonal changes among dark blue surfaces. The scrolled navigation and mobile call bar use subtle shadows to separate from content.
@@ -69,9 +71,13 @@ Controls have crisp 3px corners. Images are rectangular and fill their frames; t
 
 The primary button is cyan with dark text and a directional arrow. Service rows are separated by fine rules and change color on focus or hover. The navigation becomes an opaque, blurred dark surface on scroll.
 
+The homepage hero uses a native `details` disclosure for the secondary WhatsApp request form, with no modal. Its dark bordered panel and inputs reuse the existing navy/cyan palette and Manrope. Name, phone, and service are required; location and message are optional. Submission opens WhatsApp at `wa.me/13054812522` with a request ready for the visitor to review and send, without automatically sending it. Spanish is the default and English has equivalent labels, validation, and behavior. The image has desktop parallax; mobile and reduced-motion preferences disable that movement, and reduced motion also disables the form reveal animation. A decorative SVG follows the three ceiling vents in the artwork, moving soft cyan streaks along the painted airflow. It shares the image's coordinate system and parallax, pauses offscreen or in a hidden tab, and is omitted for reduced motion while the original static airflow remains visible.
+
 ## Do's and Don'ts
 
-- Do lead with the supplied van and authentic technical photographs.
+The WhatsApp disclosure opens upward in an absolutely positioned panel over the hero text, keeping the trigger and hero height stable. The panel has its own scroll area, a sticky close control, Escape and outside-pointer dismissal, and restores focus to its trigger when closed from inside. Its height follows available viewport space below navigation and above the mobile call bar, including the visual viewport when a keyboard opens.
+
+- Do use the supplied commercial HVAC artwork in the homepage hero and retain authentic technical photographs elsewhere, including the existing van asset and business/social imagery.
 - Do keep a direct call action visible on every page.
 - Do preserve bilingual page parity and local content facts.
 - Don't add invented statistics, testimonials, or geographic landing pages.
